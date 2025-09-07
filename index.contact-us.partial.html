@@ -1,0 +1,113 @@
+<section class="contact">
+  <h2 class="contact__title">Contact Us</h2>
+  <p class="contact__subtitle">
+    Most calendars are designed for teams.<br />
+    Slate is designed for freelancers
+  </p>
+
+  <div class="contact__layout">
+    <!-- Ліва колонка: форма -->
+    <form class="contact__form" action="#" method="post" novalidate>
+      <h3 class="contact__form-title">Contact Us</h3>
+
+      <label class="contact__label" for="contact-name">Your Name</label>
+      <input
+        class="contact__input"
+        id="contact-name"
+        name="name"
+        type="text"
+        placeholder="Your Name"
+        required
+      />
+
+      <label class="contact__label" for="contact-email">Your Email</label>
+      <input
+        class="contact__input"
+        id="contact-email"
+        name="email"
+        type="email"
+        placeholder="Your Email"
+        required
+      />
+
+      <label class="contact__label" for="contact-message">Your Message</label>
+      <textarea
+        class="contact__textarea"
+        id="contact-message"
+        name="message"
+        rows="6"
+        placeholder="Your Message"
+        required
+      ></textarea>
+
+      <button class="contact__button" type="submit">Send</button>
+    </form>
+
+    <!-- Права колонка: контакти + мапа -->
+    <div class="contact__info">
+      <ul class="contact__details">
+        <li class="contact__detail">
+          <img
+            class="contact__icon"
+            src="img/contact/bx_bx-map.png"
+            alt="icon phone"
+          />
+          <span
+            >6386 Spring St undefined Anchorage, Georgia 12473 United
+            States</span
+          >
+        </li>
+        <li class="contact__detail">
+          <img
+            class="contact__icon"
+            src="img/contact/ic_baseline-phone-android.png"
+            alt="icon phone"
+          />
+          <a class="contact__link" href="tel:+18435550130">(843) 555-0130</a>
+        </li>
+        <li class="contact__detail">
+          <img
+            class="contact__icon"
+            src="img/contact/ant-design-mail-outlined-blue.png"
+            alt="icon email"
+          />
+          <a class="contact__link" href="mailto:willie.jennings@example.com"
+            >willie.jennings@example.com</a
+          >
+        </li>
+      </ul>
+
+      <figure class="contact__map">
+        <img
+          class="contact__map-image"
+          src="img/contact/map.png"
+          alt="Map preview of our location"
+        />
+      </figure>
+
+      <ul class="contact__social">
+        <li>
+          <a class="contact__social-link" href="#"
+            ><img
+              src="img/contact/ant-design-facebook-filled-blue.png"
+              alt="Twitter"
+          /></a>
+        </li>
+        <li>
+          <a class="contact__social-link" href="#"
+            ><img
+              src="img/contact/ant-design-linkedin-filled-blue.png"
+              alt="Facebook"
+          /></a>
+        </li>
+        <li>
+          <a class="contact__social-link" href="#"
+            ><img
+              src="img/contact/ant-design-twitter-outlined-blue.png"
+              alt="LinkedIn"
+          /></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
